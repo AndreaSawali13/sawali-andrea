@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 15px;
+	height:50px;
+
+}
+@media only screen and (min-width: 768px) {
+    #scrollBtn {
+        display: block;
+    }
+}
+
+.about-box {
+    border: 1px solid #ccc; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+	background-color: #E1CAC5;
+}
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+}
