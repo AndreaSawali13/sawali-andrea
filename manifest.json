@@ -1,5 +1,5 @@
 {
-    "name": "Responsive PWA with Bootstrap",
+    "name": "RPB",
     "short_name": "PWA",
     "description": "A Progressive Web Application using Bootstrap",
     "start_url": "./index.html",
